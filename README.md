@@ -1,2 +1,2 @@
-# aniketaman.github.io
+# A simple portfolio page
 My Personal hosted page. 

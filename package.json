@@ -1,0 +1,19 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AniketAman/portfolio.git"
+  },
+  "author": "Aniket Aman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AniketAman/portfolio/issues"
+  },
+  "homepage": "https://github.com/AniketAman/portfolio#readme"
+}

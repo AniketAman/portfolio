@@ -1,0 +1,105 @@
+{
+  "profile": {
+    "name": "Aniket Aman",
+    "role": "Software Engineer at Alation",
+    "location": "Pune, India",
+    "email": "aniket.aman007@gmail.com",
+    "website": "",
+    "github": "",
+    "linkedin": "",
+    "summary": "Software Engineer with 10+ years of experience building frontend-heavy and JavaScript-based applications across UI/UX, full-stack web development, and data-facing products."
+  },
+  "about": [
+    "I specialize in frontend development, UI/UX, and JavaScript-driven applications, with additional full-stack experience across Python, Go, Node.js, and GraphQL.",
+    "My recent work focuses on data products, internal tooling, and developer-facing interfaces that balance usability with technical depth.",
+    "I am currently looking for a more challenging role with greater exposure to new technologies and broader engineering impact."
+  ],
+  "experience": [
+    {
+      "company": "Alation",
+      "role": "Software Engineer",
+      "period": "Jun 2021 - Present",
+      "details": [
+        "Working as a full-stack engineer across React, Python, Go, Node.js, and GraphQL.",
+        "Contributing to product experiences around SQL workflows, data access, and integrations.",
+        "Building user-facing features with a strong focus on frontend quality and developer productivity."
+      ]
+    },
+    {
+      "company": "Infosys",
+      "role": "Specialist Engineer",
+      "period": "Dec 2020 - Jun 2021",
+      "details": [
+        "Worked on JavaScript stack applications with a primary focus on MEAN stack development.",
+        "Delivered frontend and backend features across enterprise web application workflows."
+      ]
+    },
+    {
+      "company": "Hitachi Vantara",
+      "role": "Senior Consultant",
+      "period": "Sep 2014 - Nov 2020",
+      "details": [
+        "Built full-stack JavaScript applications using Angular and Node.js.",
+        "Delivered React web applications and mobile applications across multiple business use cases.",
+        "Worked extensively on enterprise-grade frontend systems and supporting backend services."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "slug": "sql-client",
+      "name": "SQL Client Enhancement",
+      "tagline": "Improving SQL workflows inside the Alation Data Catalog",
+      "description": "Enhancing a SQL client experience inside Alation to improve usability, data access workflows, and day-to-day analyst efficiency.",
+      "stack": ["React", "TypeScript", "GraphQL", "Node.js"],
+      "highlights": [
+        "Focused on frontend-heavy improvements for data-centric product workflows.",
+        "Worked on product interactions that make querying and exploration more efficient.",
+        "Contributed to a polished user experience inside a larger data platform."
+      ],
+      "links": []
+    },
+    {
+      "slug": "sheets-addon",
+      "name": "Google Sheets Add-on",
+      "tagline": "Data fetching add-on for Google Sheets",
+      "description": "Building a Google Sheets add-on that pulls data from multiple sources into spreadsheets for easier reporting and analysis.",
+      "stack": ["AppScript", "TypeScript", "Apollo GraphQL", "React"],
+      "highlights": [
+        "Implemented spreadsheet-side integrations using AppScript.",
+        "Used Apollo GraphQL and TypeScript to power API interactions.",
+        "Built React-based frontend surfaces for configuration and workflow control."
+      ],
+      "links": []
+    },
+    {
+      "slug": "enterprise-ui",
+      "name": "Enterprise UI Platforms",
+      "tagline": "Long-term frontend and full-stack delivery across enterprise teams",
+      "description": "Delivered frontend-heavy and full-stack business applications over 10+ years, spanning Angular, React, Node.js, and mobile-focused JavaScript stacks.",
+      "stack": ["JavaScript", "TypeScript", "Angular", "React", "Node.js"],
+      "highlights": [
+        "Built and maintained production web applications for enterprise environments.",
+        "Worked across UI/UX, frontend architecture, and supporting backend services.",
+        "Adapted across different stacks including Angular, React, MEAN, and mobile frameworks."
+      ],
+      "links": []
+    }
+  ],
+  "skills": {
+    "languages": ["JavaScript", "TypeScript", "Python"],
+    "frontend": ["React", "Redux", "Angular 2+", "HTML5", "CSS3", "Bootstrap", "Webpack"],
+    "backend": ["Node.js", "ExpressJS", "Django", "GraphQL"],
+    "product": ["UI/UX", "Frontend architecture", "Full-stack delivery"]
+  },
+  "education": {
+    "school": "West Bengal University of Technology, Kolkata",
+    "degree": "B.Tech",
+    "period": "2010 - 2014"
+  },
+  "currentFocus": [
+    "Enhancing a SQL client for the Alation Data Catalog.",
+    "Building a Google Sheets add-on for fetching data from different sources.",
+    "Working with AppScript, TypeScript, Apollo GraphQL, and React across product and integration surfaces."
+  ]
+}

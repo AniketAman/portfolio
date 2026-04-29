@@ -19,7 +19,8 @@ export function useResumeData() {
 
     async function loadResume() {
       try {
-        const response = await fetch('/resume.json');
+        const resumeUrl = new URL('resume.json', window.location.origin + import.meta.env.BASE_URL);
+        const response = await fetch(resumeUrl);
         if (!response.ok) {
           throw new Error(`Failed to load resume.json (${response.status})`);
         }

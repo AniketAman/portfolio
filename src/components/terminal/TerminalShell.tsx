@@ -140,15 +140,6 @@ export function TerminalShell() {
           </div>
 
           <div className="prompt-wrap">
-            {suggestionOpen ? (
-              <SuggestionMenu
-                items={suggestions}
-                selectedIndex={selectedSuggestion}
-                onHighlight={setSelectedSuggestion}
-                onSelect={acceptSuggestion}
-              />
-            ) : null}
-
             <label className="prompt-row" onClick={() => inputRef.current?.focus()}>
               <span className="terminal-chevron">{'›'}</span>
               <input
@@ -164,6 +155,15 @@ export function TerminalShell() {
               />
               <span className="prompt-caret" aria-hidden="true" />
             </label>
+
+            {suggestionOpen ? (
+              <SuggestionMenu
+                items={suggestions}
+                selectedIndex={selectedSuggestion}
+                onHighlight={setSelectedSuggestion}
+                onSelect={acceptSuggestion}
+              />
+            ) : null}
 
             <div className="status-row">
               <span className="status-item status-model">Model: Mythos: 4.9</span>
